@@ -3,11 +3,11 @@ Python script to remove all certificates matching a keyword in the subject from 
 
 Usage: 
 
-    python strip_from_certchain <<search_string>> <<file_name>>
+    python strip_from_certchain.py <<search_string>> <<file_name>>
     
 or
 
-    ./strip_from_certchain <<search_string>> <<file_name>>
+    ./strip_from_certchain.py <<search_string>> <<file_name>>
     
 For example, the following will remove all of the email certificate authorities from, say, a DoD certificate chain:
 
